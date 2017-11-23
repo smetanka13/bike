@@ -1,0 +1,30 @@
+.pers_cnt {
+	border-radius: 5px;
+	width: 80%;
+	margin: 50px auto;
+	height: 360px;
+}
+.personal_pic {
+	width: 70%;
+	height: 250px;
+	margin: 20px 15%;
+	margin-bottom: 0;
+}
+.personal_pic img {
+	min-height: 100%;
+	max-height: 120%;
+}
+.pers_ab {
+	width: 70%;
+	height: 80px;
+	margin: auto 15%;
+	float: left;
+}
+.pers_cnt h4 {
+	color: #fff;
+	font-size: 16px;
+}
+.pers_cnt h4 span{
+	color: #e53935;
+	font-size: 16px;
+}

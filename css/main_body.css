@@ -1,0 +1,310 @@
+* {
+
+	margin: 0;
+    padding: 0;
+}
+
+.header {
+
+	font-family: 'Oswald', sans-serif;
+	font-size: 14px;
+	line-height: 1.5;
+}
+
+footer,body {
+
+	font-family: 'Jura', sans-serif;
+	font-size: 14px;
+	line-height: 1.5;
+}
+
+html,
+body {
+
+  height: 100%;
+  background: #f5f5f5;
+}
+
+.page {
+
+  padding-top: 50px;
+  width: 100%;
+  position: absolute;
+  min-height: 100%;
+  display: table;
+  background: #000;
+}
+
+section {
+
+	width: 100%;
+	height: 100vh;
+	position: relative;
+	overflow: hidden;
+}
+
+/*AFTER-HEADER PADDING*/
+.au {
+
+	margin-top: 50px !important;
+}
+
+/*BOTTOM PADDING AND MARGIN */ 
+
+.btp {
+
+	padding-bottom: 50px;
+}
+
+.btm {
+
+	margin-bottom: 50px !important;
+}
+
+button,input,button:focus {
+
+	border-radius: 2px;
+	outline: none;
+}
+
+select {
+
+	outline: none;
+	border:none;
+}
+
+textarea {
+
+	resize: none;
+	outline:none;
+}
+
+section {
+
+	height: 100vh;
+	width: 100%;
+}
+
+/*FOR BUTTONS WITHOUT BOOT*/
+
+.wth_boot_but {
+
+	display: inline-block;
+    margin-bottom: 0;
+    font-weight: normal;
+    text-align: center;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    background-image: none;
+    border: 1px solid transparent;
+    white-space: nowrap;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    border-radius: 0;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+/*FOR BUTTONS CONFIRM*/
+
+.confirm_but {
+
+	min-width: 100px;
+	background: #e53935;
+	color: #fff;
+	border-radius: 2px;
+	transition: all 0.3s ease;
+}
+
+.confirm_but:hover {
+
+	background: #333;
+	color: #e53935;
+}
+
+/*FOR LINKS*/
+.active a {
+
+    background: none !important;
+}
+
+a:hover {
+
+	text-decoration:none;
+	transition: color 0.3s ease;
+}
+
+li > a:hover {
+    
+    background: none !important;
+}
+
+li > a:focus {
+    
+    background: none !important;
+}
+
+.col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12 {
+
+	padding: 0;
+}
+
+.container-fluid {
+
+	padding-left: 0 !important;
+	padding-right: 0 !important;
+}
+
+.navbar-collapse {
+
+	max-height: 100vh !important;
+	overflow-y: scroll !important;
+}
+
+/*FOR TEXT AND TITLES*/
+
+.main_title { /*for all titles*/
+
+	height: 20%;
+	margin: 0;
+	font-size: 18px;
+	font-weight: bold;
+	text-align: center;
+	white-space: nowrap;
+  	overflow: hidden;
+  	text-overflow: ellipsis;
+  	color: #e53935;
+}
+
+/*if we need no 20% height*/
+.main_title_2 {
+
+	height: auto;
+	margin: 0;
+	font-size: 16px;
+	font-weight: bold;
+	text-align: center;
+	white-space: nowrap;
+  	overflow: hidden;
+  	text-overflow: ellipsis;
+  	color: #e53935;
+}
+
+.main_text {
+
+	text-align: justify;
+}
+
+.dot_title { /*for dotdot after title*/
+
+	white-space: nowrap;
+  	overflow: hidden;
+  	text-overflow: ellipsis;
+}
+
+.no_wrap_title{
+
+	white-space: pre-wrap;
+	color: #fff;
+}
+
+p {
+
+	color: #fff;
+}
+
+/*FOR ANIMATE CSS*/
+.hidden_css {
+
+	opacity:0;
+}
+.visible_css {
+
+	opacity:1;
+}
+
+.none_css {
+
+	display: none;
+}
+
+/*для полупрозрачности, создать блок пустой в блоке, которому надо сделать прощрачность и присвоить этот класс*/
+.opac {
+
+	background:#e1e1e1;
+	opacity:0.5;
+	width:100%;
+	height:100%;
+	position:absolute;
+	  top:0px;
+	  left:0px;
+}
+
+/*FOR CENTER IMG*/
+.cent_img {
+
+	/*Задать высоту и ширину*/
+	overflow: hidden;
+	float: left;
+	position: relative;
+	display:flex;
+    justify-content: center; /*центрируем элемент по горизонтали */
+    align-items: center;
+}
+
+.cent_img img {
+
+	/*задать минимальную и максимальную высоту*/
+	height: auto;
+	width: auto;
+	/*минимальную ширину*/
+}
+
+.main_cnt {
+
+	height: auto;
+	min-height: 500px;
+	margin: 50px auto;
+}
+/************************************FOOTER********************/
+
+footer {
+
+  width: 100%;
+  height: 60px;
+  background: #333333;
+  font-family: 'Jura', sans-serif;
+  color: #7f7f7f;
+  display: table-row !important;
+}
+
+.foot_nav {
+
+	width: 100%;
+	height: 100%;
+	text-align: center;
+}
+
+.foot_nav ul {
+
+	line-height: 70px;
+	text-align: center;
+	margin: 0;
+	color: #fff;
+}
+
+.foot_nav ul a {
+
+	color: #fff;
+	transition: color 0.3s ease;
+}
+
+.foot_nav ul li a:hover {
+
+	color: #e53935;
+}

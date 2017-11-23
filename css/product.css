@@ -1,0 +1,46 @@
+.prod_titl {
+
+	text-align: left;
+}
+.prod_cnt {
+
+	height: auto;
+	min-height: 300px;
+}
+.desc_cnt {
+
+	height: auto;
+	min-height: inherit;
+	float: left;
+}
+.pr_img {
+
+	height: 300px;
+	float: left;
+}
+.pr_img img {
+
+	height: 100%;
+	border-radius: 5px;
+}
+.prod_cnt li,.prod_cnt li big small{
+
+	color: #fff;
+	font-size: 14px;
+}
+.prod_cnt li big{
+
+	color: #e53935;
+	font-size: 16px;
+}
+.prod_cnt li big p{
+
+	color: #e53935;
+	font-size: 14px;
+}
+.bk_desc{
+
+	width: 100%;
+	height: auto;
+	margin-top: 20px;
+}

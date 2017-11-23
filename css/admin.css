@@ -1,0 +1,12 @@
+.form_prod input,.form_prod textarea{
+
+	background: #e1e1e1;
+}
+.form_prod textarea{
+
+	height: 100px;
+}
+.form_prod label{
+
+	color: #e53935;
+}

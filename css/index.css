@@ -1,0 +1,94 @@
+/*fon*/
+.fon {
+
+	width: 100%;
+	height: calc(100vh - 50px);
+	background-image: url(../images/main/fon.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center right;
+}
+
+.slogan {
+
+	width: 50%;
+	height: auto;
+	margin: 15% 50% 0 0;
+}
+
+.slogan h4 {
+
+	font-size: 5vmin;
+	text-align: left;
+}
+
+.slogan h4 b {
+
+	color: #e53935;
+	font-size: 6vmin;
+}
+
+.slogan button {
+
+	width: 150px ;
+	margin-top: 50px;
+	text-transform: uppercase;
+	font-weight: 600;
+}
+
+/*ABOUT SECTION*/
+.ab {
+
+	background:#000;
+}
+
+.ab_cnt {
+
+	height: 100%;
+	display: flex;
+	align-items:center;
+	overflow: hidden;
+}
+
+.ab_block {
+
+	width: 100%;
+	height: 70%;
+	display: flex;
+}
+
+.s2_img {
+
+	background-image: url('../images/main/i1.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 50%;
+	height: 100%;
+	float: left;
+}
+
+.ab_desc {
+
+	width: 50%;
+	height: 100%;
+	background:#e53935;
+	border-radius: 2px;
+	position: relative;
+	display: flex;
+	align-items:center;
+	justify-content:center;
+}
+
+.ab_desc h4 {
+
+	width: 100%;
+	height: 50px;
+	color: #fff;
+	font-size: 3vmin;
+}
+
+.ab_txt {
+
+	width: 80%;
+    margin: 0 auto;
+}
